@@ -4,10 +4,10 @@
       "type": "page",
       "settings": {}
     },
-    "test": {
-      "type": "page",
+    "banner": {
+      "type": "banner",
       "settings": {}
     }
   },
-  "order": ["main", "test"]
+  "order": ["main", "banner"]
 }
