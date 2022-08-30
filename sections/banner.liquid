@@ -1,7 +1,15 @@
-<h1>Banner</h1>
+<h1>{{ section.settings.header }}</h1>
 
 {% schema %}
 {
-  "name": "MyBanner"
+  "name": "Banner",
+  "settings": [
+    {
+      "type": "text",
+      "id": "header",
+      "label": "Header",
+      "default": "Hello!"
+    }
+  ]
 }
 {% endschema %}
