@@ -1,13 +1,19 @@
 {
   "sections": {
-    "main": {
-      "type": "page",
-      "settings": {}
-    },
     "banner": {
       "type": "banner",
-      "settings": {}
+      "settings": {
+        "header": "Hello!"
+      }
+    },
+    "main": {
+      "type": "page",
+      "settings": {
+      }
     }
   },
-  "order": ["main", "banner"]
+  "order": [
+    "banner",
+    "main"
+  ]
 }
