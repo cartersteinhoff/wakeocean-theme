@@ -3,7 +3,11 @@
     "main": {
       "type": "page",
       "settings": {}
+    },
+    "test": {
+      "type": "page",
+      "settings": {}
     }
   },
-  "order": ["main"]
+  "order": ["main", "page"]
 }
