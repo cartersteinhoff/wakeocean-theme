@@ -9,5 +9,5 @@
       "settings": {}
     }
   },
-  "order": ["main", "page"]
+  "order": ["main", "test"]
 }

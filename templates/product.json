@@ -2,8 +2,11 @@
   "sections": {
     "main": {
       "type": "product",
-      "settings": {}
+      "settings": {
+      }
     }
   },
-  "order": ["main"]
+  "order": [
+    "main"
+  ]
 }
