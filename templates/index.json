@@ -1,11 +1,5 @@
 {
   "sections": {
-    "banner": {
-      "type": "banner",
-      "settings": {
-        "header": "Hello!"
-      }
-    },
     "main": {
       "type": "page",
       "settings": {
@@ -13,7 +7,6 @@
     }
   },
   "order": [
-    "banner",
     "main"
   ]
 }
