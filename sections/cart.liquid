@@ -1,15 +1,18 @@
 <p>This is the cart section.</p>
-{% for item in cart.items %}
-  <p>
-    {{ item.title }}
-    {{ item.quantity }}
-  </p>
+<form action="{{ routes.cart_url }}" method="post">
+  {% for item in cart.items %}
+    <p>
+      {{ item.title }}
+      {{ item.quantity }}
+    </p>
 
-  <a href="{{ item.url_to_remove }}">Remove</a>
-  <input
-    type="text"
-    name="updates[]"
-    value="{{ item.quantity }}"
-  >
-  <input type="submit" value="Update cart">
-{% endfor %}
+    <a href="{{ item.url_to_remove }}">Remove</a>
+    <input
+      type="text"
+      name="updates[]"
+      value="{{ item.quantity }}"
+    >
+    <input type="submit" value="Update cart">
+  {% endfor %}
+  <input type="submit" name="checkout" value="Checkout">
+</form>
