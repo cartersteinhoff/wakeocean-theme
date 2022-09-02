@@ -3,7 +3,6 @@
     "header": {
       "type": "header",
       "settings": {
-        "menu": "primary"
       }
     },
     "index": {
