@@ -3,6 +3,7 @@
     "header": {
       "type": "header",
       "settings": {
+        "menu": "footer"
       }
     },
     "index": {
