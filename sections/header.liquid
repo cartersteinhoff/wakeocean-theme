@@ -1,0 +1,29 @@
+<ol>
+    {% for link in linklists.primary.links %}
+    <li> <a href="{{ link.url }}"> {{ link.title }}</a> <li>
+  {% endfor %}
+</ol>
+
+{% schema %}
+{
+  "name": "Header",
+  "settings": [
+    {
+      "type": "select",
+      "id": "menu",
+      "label": "menu",
+      "options": [
+        {
+          "value": "primary",
+          "label": "primary"
+        },
+        {
+          "value": "secondary",
+          "label": "secondary"
+        }
+      ],
+      "default": "primary"
+    }
+  ]
+}
+{% endschema %}

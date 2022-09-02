@@ -1,5 +1,10 @@
 {
   "sections": {
+    "header": {
+      "type": "header",
+      "settings": {
+      }
+    },
     "index": {
       "type": "index",
       "settings": {
@@ -7,6 +12,7 @@
     }
   },
   "order": [
+    "header",
     "index"
   ]
 }
