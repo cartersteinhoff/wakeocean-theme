@@ -1,6 +1,8 @@
 <ol>
-    {% for link in linklists.primary.links %}
-    <li> <a href="{{ link.url }}"> {{ link.title }}</a> <li>
+  {% for link in linklists.primary.links %}
+    <li>
+      <a href="{{ link.url }}"> {{ link.title }}</a>
+    </li>
   {% endfor %}
 </ol>
 
